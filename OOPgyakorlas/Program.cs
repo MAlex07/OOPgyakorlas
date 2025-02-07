@@ -14,6 +14,19 @@
 
 			Console.WriteLine("\n" + konyv1.ToString() + "\n" + konyv1.HanyoldalMaradt(20));
 
-		}
+			Film film1 = new("Halálos Iramben", "Rob Cohen", 101, "akció film", true);
+			Film film2 = new("Még nem tudom a címét", "Én");
+
+            Console.WriteLine(film1.ToString() + "\n" + film2.ToString());
+
+			film1.Jatszas();
+			film1.MufajModositas("vígjáték");
+			film1.HosszNovelese(30);
+
+            Console.WriteLine(film1.ToString());
+
+
+
+        }
 	}
 }
