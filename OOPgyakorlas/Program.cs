@@ -23,7 +23,18 @@
 			film1.MufajModositas("vígjáték");
 			film1.HosszNovelese(30);
 
-            Console.WriteLine(film1.ToString());
+            Console.WriteLine("\n" + film1.ToString());
+
+			Karakter karakter1 = new("Trevor", 30, 100, 100);
+			Karakter karakter2 = new("Nem tudom", 60);
+
+            Console.WriteLine(karakter1.ToString() + "\n" + karakter2.ToString());
+
+			karakter1.Tamadas();
+			karakter1.Gyogyulas(30);
+			karakter1.Szintlepes(50, 20);
+
+            Console.WriteLine("\n" + karakter1.ToString());
 
 
 
