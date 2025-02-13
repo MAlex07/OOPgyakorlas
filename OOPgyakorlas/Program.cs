@@ -36,6 +36,13 @@
 
             Console.WriteLine("\n" + karakter1.ToString());
 
+			Urhajo urhajo1 = new("Appolo 20", 500, 10, 100);
+			Urhajo urhajo2 = new("Szputnyik 5", 10);
+
+            Console.WriteLine(urhajo1.ToString() + "\n" + urhajo2.ToString());
+
+
+
 
 
         }
