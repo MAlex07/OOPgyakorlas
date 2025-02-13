@@ -41,7 +41,16 @@
 
             Console.WriteLine(urhajo1.ToString() + "\n" + urhajo2.ToString());
 
+			KemKuldetes kuldetes1 = new("A007", "USA", 3, 60);
+			KemKuldetes kuldetes2 = new("B007", "Kuba");
 
+            Console.WriteLine(kuldetes1.ToString() + "\n" + kuldetes2.ToString());
+
+			kuldetes1.KuldetesInditasa();
+			kuldetes1.VeszelySzintNovelese(2);
+			kuldetes1.SikerEselyNovelese(10);
+
+            Console.WriteLine("\n" + kuldetes1.ToString());
 
 
 
